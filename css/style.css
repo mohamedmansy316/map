@@ -96,8 +96,7 @@ body {
       background-color: #12acbb; }
 
 .map-container {
-  padding: 0px;
-  margin-top: 20px; }
+  padding: 5px; }
   .map-container img {
     width: 100%; }
   .map-container .point {
