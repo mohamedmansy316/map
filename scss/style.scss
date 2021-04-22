@@ -1,0 +1,270 @@
+body {
+  background-color: #ffffff;
+  color: #1e32e4;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  padding: 0px;
+  margin: 0px;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Kufam", cursive;
+  li {
+    direction: rtl;
+    text-decoration: none;
+    cursor: pointer;
+    list-style: square;
+    margin: 10px 15px;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+}
+.container-fluid {
+  padding: 0px;
+  margin: 0px;
+}
+.countries{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.541),hsla(0, 0%, 0%, 0.541)), url('../images/earth.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+
+}
+.list-country {
+  direction: rtl;
+  height: 320px;
+  overflow-x: auto;
+  a:hover{
+    cursor: pointer;
+  }
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  color:rgb(36, 121, 177);
+  h2 {
+    font-size: 39px;
+   direction: rtl;
+   text-align: right;
+  }
+}
+
+$primary: #ffffff;
+.description {
+  background-color: aliceblue;
+  width: 50%;
+  margin: auto;
+  padding: 27px;
+  border-radius: 13px;
+  align-items: flex-start;
+  direction: rtl;
+  color: #0079e0;
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  -ms-border-radius: 13px;
+  -o-border-radius: 13px;
+}
+.map-container {
+  align-items: flex-end;
+  margin-top: 60px;
+  position: relative;
+  img {
+    width: 100%;
+  }
+  .point {
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+    width: 10px;
+    height: 10px;
+    background-color: $primary;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    will-change: transform, box-shadow;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 0 rgba($primary, 0.4);
+    animation: pulse 3s infinite;
+  }
+  .Angola {
+    top: 56%;
+    left: 50%;
+  }
+  .Green-head {
+    top: 48%;
+    left: 38%;
+  }
+  .Ginia {
+    top: 51%;
+    left: 41%;
+  }
+  .Muzambik {
+    top: 61%;
+    left: 55%;
+  }
+  .Kongho {
+    top: 53%;
+    left: 50%;
+  }
+  .Big-kongho {
+    top: 55%;
+    left: 53%;
+  }
+  .Banin {
+    top: 51%;
+    left: 45%;
+  }
+  .Kameron {
+    top: 52%;
+    left: 48%;
+  }
+  .Togo {
+    top: 51%;
+    left: 43.4%;
+  }
+  .Kotivoar {
+    top: 52%;
+    left: 42.5%;
+  }
+  .Haity {
+    top: 48%;
+    left: 22%;
+  }
+  .France {
+    top: 38%;
+    left: 48%;
+  }
+  .America {
+    top: 41%;
+    left: 15%;
+  }
+  .Brazil {
+    top: 57%;
+    left: 28%;
+  }
+  .Venezuela {
+    top: 52%;
+    left: 24%;
+  }
+  .Nicaragua {
+    top: 49%;
+    left: 18.2%;
+  }
+  .Colombia {
+    top: 52%;
+    left: 21%;
+  }
+  .Guatemala {
+    top: 48%;
+    left: 16%;
+  }
+  .Paraguay {
+    top: 61%;
+    left: 27%;
+  }
+  .Mexico {
+    top: 46%;
+    left: 13%;
+  }
+  .Peru {
+    top: 57%;
+    left: 21%;
+  }
+  .Honduras {
+    top: 50%;
+    left: 18%;
+  }
+  .Dominicans {
+    top: 48%;
+    left: 24%;
+  }
+  .Argentina {
+    top: 63%;
+    left: 25%;
+  }
+  .Equatorial-Guinea {
+    top: 54%;
+    left: 48%;
+  }
+  .Salvador {
+    top: 49.4%;
+    left: 17%;
+  }
+  .Costarica {
+    top: 51%;
+    left: 18.5%;
+  }
+  .Ecuador {
+    top: 54%;
+    left: 19.6%;
+  }
+  .Bolivia {
+    top: 59%;
+    left: 24%;
+  }
+  .Urgawi {
+    top: 62%;
+    left: 30%;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba($primary, 0.5);
+  }
+  70% {
+    box-shadow: 0 0 0 25px rgba($primary, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba($primary, 0);
+  }
+}
+
+.tippy {
+  background-color: rgb(14, 173, 194);
+  width: 310px;
+  padding: 10px;
+  position: absolute;
+  color: white;
+  border-radius: 10px;
+  z-index: 100000000000;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.statistics {
+  padding: 90px;
+  .explanation {
+    box-sizing:border-box;
+    margin: 10px;
+    padding: 15px;
+    width: auto;
+    height: fit-content;
+    background-color: #7a7a7a38;
+    color: rgb(0, 0, 0);
+    // box-shadow: 0px -1px 26px -6px #1397ca;
+    height: auto;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    img {
+      width: 30%;
+    }
+    span {
+      width: 100%;
+      text-align: center;
+      padding: 8px;
+      border-radius: 10px;
+      color: rgb(255, 255, 255);
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+      background-color: #12acbb;
+    }
+  }
+}
