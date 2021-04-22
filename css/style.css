@@ -98,7 +98,7 @@ body {
 .map-container {
   padding: 5px; }
   .map-container img {
-    width: 100%; }
+    width: inherit; }
   .map-container .point {
     cursor: pointer;
     position: absolute;
