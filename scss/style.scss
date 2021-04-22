@@ -1,3 +1,4 @@
+$primary: #ffffff;
 body {
   background-color: #ffffff;
   scroll-behavior: smooth;
@@ -15,13 +16,16 @@ body {
     text-decoration: none;
   }
 }
-
-.countries{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.541),hsla(0, 0%, 0%, 0.541)), url('../images/earth.jpg');
+.countries {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.541), hsla(0, 0%, 0%, 0.541)), url("../images/earth.jpg");
   background-size: cover;
   background-attachment: fixed;
   color: white;
-
+  @media(max-width:768px){
+    h2{
+      font-size: 18px;
+    }
+  }
 }
 .list-country {
   direction: rtl;
@@ -29,13 +33,13 @@ body {
   overflow-x: auto;
   overflow-y: auto;
   color: white;
-  a{
+  a {
     background-color: #2a9aa5;
     padding: 7px;
     border-radius: 24px;
     margin: 10px;
   }
-  a:hover{
+  a:hover {
     cursor: pointer;
   }
 }
@@ -44,41 +48,74 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #ffffff;
-  color:rgb(36, 121, 177);
-  img{
+  color: rgb(36, 121, 177);
+  img {
     width: 25%;
   }
   h2 {
     font-size: 39px;
-   direction: rtl;
-   text-align: right;
+    direction: rtl;
+    text-align: right;
   }
-  @media only screen and (max-width: 678px){
-    h2{
+  @media only screen and (max-width: 678px) {
+    h2 {
       font-size: 25px;
     }
-    img{
+    img {
       width: inherit;
     }
   }
 }
 
-$primary: #ffffff;
+
 .description {
   background-color: aliceblue;
   width: 50%;
   padding: 27px;
   direction: rtl;
   color: #0079e0;
-  border-radius:14px;
-  -webkit-border-radius:14px;
-  -moz-border-radius:14px;
-  -ms-border-radius:14px;
-  -o-border-radius:14px;
+  border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
 }
-.map-container {
+.statistics {
+  padding: 50px;
+  width: 100%;
+  overflow: hidden;
+  .explanation {
+    margin: 10px;
+    padding: 15px;
+    background-color: #7a7a7a38;
+    color: rgb(0, 0, 0);
+    height: auto;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    img {
+      width: 30%;
+    }
+    span {
+      width: 100%;
+      text-align: center;
+      padding: 8px;
+      border-radius: 10px;
+      color: rgb(255, 255, 255);
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+      background-color: #12acbb;
+    }
+  }
+}
 
-  margin-top: 60px;
+.map-container {
+  padding: 0px;
+  margin-top: 20px;
 
   img {
     width: 100%;
@@ -243,36 +280,4 @@ $primary: #ffffff;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-}
-.statistics {
-  padding: 50px;
-  width: 100%;
-  overflow:hidden;
-  .explanation {
-    margin: 10px;
-    padding: 15px;
-    background-color: #7a7a7a38;
-    color: rgb(0, 0, 0);
-    height: auto;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    img {
-      width: 30%;
-    }
-    span {
-      width: 100%;
-      text-align: center;
-      padding: 8px;
-      border-radius: 10px;
-      color: rgb(255, 255, 255);
-      -webkit-border-radius: 10px;
-      -moz-border-radius: 10px;
-      -ms-border-radius: 10px;
-      -o-border-radius: 10px;
-      background-color: #12acbb;
-    }
-  }
 }

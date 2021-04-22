@@ -17,6 +17,9 @@ body {
   background-size: cover;
   background-attachment: fixed;
   color: white; }
+  @media (max-width: 768px) {
+    .countries h2 {
+      font-size: 18px; } }
 
 .list-country {
   direction: rtl;
@@ -62,8 +65,38 @@ body {
   -ms-border-radius: 14px;
   -o-border-radius: 14px; }
 
+.statistics {
+  padding: 50px;
+  width: 100%;
+  overflow: hidden; }
+  .statistics .explanation {
+    margin: 10px;
+    padding: 15px;
+    background-color: #7a7a7a38;
+    color: black;
+    height: auto;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px; }
+    .statistics .explanation img {
+      width: 30%; }
+    .statistics .explanation span {
+      width: 100%;
+      text-align: center;
+      padding: 8px;
+      border-radius: 10px;
+      color: white;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+      background-color: #12acbb; }
+
 .map-container {
-  margin-top: 60px; }
+  padding: 0px;
+  margin-top: 20px; }
   .map-container img {
     width: 100%; }
   .map-container .point {
@@ -189,34 +222,5 @@ body {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px; }
-
-.statistics {
-  padding: 50px;
-  width: 100%;
-  overflow: hidden; }
-  .statistics .explanation {
-    margin: 10px;
-    padding: 15px;
-    background-color: #7a7a7a38;
-    color: black;
-    height: auto;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px; }
-    .statistics .explanation img {
-      width: 30%; }
-    .statistics .explanation span {
-      width: 100%;
-      text-align: center;
-      padding: 8px;
-      border-radius: 10px;
-      color: white;
-      -webkit-border-radius: 10px;
-      -moz-border-radius: 10px;
-      -ms-border-radius: 10px;
-      -o-border-radius: 10px;
-      background-color: #12acbb; }
 
 /*# sourceMappingURL=style.css.map */
