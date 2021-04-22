@@ -1,300 +1,123 @@
-// tippy('.Angola',{
-//     content: '<div class="angola text-center"><b> انجولا</b> <br> عدد المسلمين الجدد : 942</div>',
-//     animation: 'scale',
-//     arrow: true,
-//     delay: 50,
-//     followCursor: true,
-//     offset: [0, 5],
-//     trigger: 'mouseenter click',
-//     allowHTML: true,
-// });
-// tippy('.Green-head',{
-//     content: ' <div class="text-center"><b> الرأس الأخضر</b> <br> عدد المسلمين الجدد : 45</div>',
-//     animation: 'scale',
-//     arrow: true,
-//     delay: 50,
-//     followCursor: true,
-//     offset: [0, 5],
-//     trigger: 'mouseenter click',
-//     allowHTML: true,
-// });
-// tippy('.Ginia',{
-//     content: '',
-//     animation: 'scale',
-//     arrow: true,
-//     delay: 50,
-//     followCursor: true,
-//     offset: [0, 5],
-//     trigger: 'mouseenter click',
-//     allowHTML: true,
-// });
-// tippy('.Muzambik',{
-//     content: '',
-//     animation: 'scale',
-//     arrow: true,
-//     delay: 50,
-//     followCursor: true,
-//     offset: [0, 5],
-//     trigger: 'mouseenter click',
-//     allowHTML: true,
-// });
-// tippy('.Kongho',{
-//     content: '',
-//     animation: 'scale',
-//     arrow: true,
-//     delay: 50,
-//     followCursor: true,
-//     offset: [0, 5],
-//     trigger: 'mouseenter click',
-//     allowHTML: true,
-// });
-// tippy('.big-kongho',{
-//     content: '',
-//     animation: 'scale',
-//     arrow: true,
-//     delay: 50,
-//     followCursor: true,
-//     offset: [0, 5],
-//     trigger: 'mouseenter click',
-//     allowHTML: true,
-// });
-// tippy('.Banin',{
-//     content: '',
-//     animation: 'scale',
-//     arrow: true,
-//     delay: 50,
-//     followCursor: true,
-//     offset: [0, 5],
-//     trigger: 'mouseenter click',
-//     allowHTML: true,
-// });
-// tippy('.Kameron',{
-//     content: '',
-//     animation: 'scale',
-//     arrow: true,
-//     delay: 50,
-//     followCursor: true,
-//     offset: [0, 5],
-//     trigger: 'mouseenter click',
-//     allowHTML: true,
-// });
-// tippy('.Togo',{
-//     content: '',
-//     animation: 'scale',
-//     arrow: true,
-//     delay: 50,
-//     followCursor: true,
-//     offset: [0, 5],
-//     trigger: 'mouseenter click',
-//     allowHTML: true,
-// });
-// tippy('.Kotivoar',{
-//     content: '',
-//     animation: 'scale',
-//     arrow: true,
-//     delay: 50,
-//     followCursor: true,
-//     offset: [0, 5],
-//     trigger: 'mouseenter click',
-//     allowHTML: true,
-// });
-// tippy('.Haity',{
-//     content: '',
-//     animation: 'scale',
-//     arrow: true,
-//     delay: 50,
-//     followCursor: true,
-//     offset: [0, 5],
-//     trigger: 'mouseenter click',
-//     allowHTML: true,
-// });
-// tippy('.France',{
-//     content: '',
-//     animation: 'scale',
-//     arrow: true,
-//     delay: 50,
-//     followCursor: true,
-//     offset: [0, 5],
-//     trigger: 'mouseenter click',
-//     allowHTML: true,
-// });
-// tippy('.America',{
-//     content: '',
-//     animation: 'scale',
-//     arrow: true,
-//     delay: 50,
-//     followCursor: true,
-//     offset: [0, 5],
-//     trigger: 'mouseenter click',
-//     allowHTML: true,
-// });
-// tippy('.Brazil',{
-//     content: '',
-//     animation: 'scale',
-//     arrow: true,
-//     delay: 50,
-//     followCursor: true,
-//     offset: [0, 5],
-//     trigger: 'mouseenter click',
-//     allowHTML: true,
-// });
-// tippy('.Venezuela',{
-//     content: '',
-//     animation: 'scale',
-//     arrow: true,
-//     delay: 50,
-//     followCursor: true,
-//     offset: [0, 5],
-//     trigger: 'mouseenter click',
-//     allowHTML: true,
-// });
-// tippy('.Nicaragua',{
-//     content: '',
-//     animation: 'scale',
-//     arrow: true,
-//     delay: 50,
-//     followCursor: true,
-//     offset: [0, 5],
-//     trigger: 'mouseenter click',
-//     allowHTML: true,
-// });
-// tippy('.Colombia',{
-//     content: '',
-//     animation: 'scale',
-//     arrow: true,
-//     delay: 50,
-//     followCursor: true,
-//     offset: [0, 5],
-//     trigger: 'mouseenter click',
-//     allowHTML: true,
-// });
-// tippy('.Guatemala',{
-//     content: '',
-//     animation: 'scale',
-//     arrow: true,
-//     delay: 50,
-//     followCursor: true,
-//     offset: [0, 5],
-//     trigger: 'mouseenter click',
-//     allowHTML: true,
-// });
-// tippy('.Paraguay',{
-//     content: '',
-//     animation: 'scale',
-//     arrow: true,
-//     delay: 50,
-//     followCursor: true,
-//     offset: [0, 5],
-//     trigger: 'mouseenter click',
-//     allowHTML: true,
-// });
-// tippy('.Mexico',{
-//     content: '',
-//     animation: 'scale',
-//     arrow: true,
-//     delay: 50,
-//     followCursor: true,
-//     offset: [0, 5],
-//     trigger: 'mouseenter click',
-//     allowHTML: true,
-// });
-// tippy('.Peru',{
-//     content: '',
-//     animation: 'scale',
-//     arrow: true,
-//     delay: 50,
-//     followCursor: true,
-//     offset: [0, 5],
-//     trigger: 'mouseenter click',
-//     allowHTML: true,
-// });
-// tippy('.Honduras',{
-//     content: '',
-//     animation: 'scale',
-//     arrow: true,
-//     delay: 50,
-//     followCursor: true,
-//     offset: [0, 5],
-//     trigger: 'mouseenter click',
-//     allowHTML: true,
-// });
-// tippy('.Dominicans',{
-//     content: '',
-//     animation: 'scale',
-//     arrow: true,
-//     delay: 50,
-//     followCursor: true,
-//     offset: [0, 5],
-//     trigger: 'mouseenter click',
-//     allowHTML: true,
-// });
-// tippy('.Argentina',{
-//     content: '',
-//     animation: 'scale',
-//     arrow: true,
-//     delay: 50,
-//     followCursor: true,
-//     offset: [0, 5],
-//     trigger: 'mouseenter click',
-//     allowHTML: true,
-// });
-// tippy('.Equatorial-Guinea',{
-//     content: '',
-//     animation: 'scale',
-//     arrow: true,
-//     delay: 50,
-//     followCursor: true,
-//     offset: [0, 5],
-//     trigger: 'mouseenter click',
-//     allowHTML: true,
-// });
-// tippy('.Salvador',{
-//     content: '',
-//     animation: 'scale',
-//     arrow: true,
-//     delay: 50,
-//     followCursor: true,
-//     offset: [0, 5],
-//     trigger: 'mouseenter click',
-//     allowHTML: true,
-// });
-// tippy('.Costarica',{
-//     content: '',
-//     animation: 'scale',
-//     arrow: true,
-//     delay: 50,
-//     followCursor: true,
-//     offset: [0, 5],
-//     trigger: 'mouseenter click',
-//     allowHTML: true,
-// });
-// tippy('.Ecuador',{
-//     content: '',
-//     animation: 'scale',
-//     arrow: true,
-//     delay: 50,
-//     followCursor: true,
-//     offset: [0, 5],
-//     trigger: 'mouseenter click',
-//     allowHTML: true,
-// });
-// tippy('.Bolivia',{
-//     content: '',
-//     animation: 'scale',
-//     arrow: true,
-//     delay: 50,
-//     followCursor: true,
-//     offset: [0, 5],
-//     trigger: 'mouseenter click',
-//     allowHTML: true,
-// });
-// tippy('.Urgawi',{
-//     content: '',
-//     animation: 'scale',
-//     arrow: true,
-//     delay: 50,
-//     followCursor: true,
-//     offset: [0, 5],
-//     trigger: 'mouseenter click',
-//     allowHTML: true,
-// });
+$(document).ready(function () {
+    $('.tippy').hide();
+    $('.1Angola ,.Angola').click(function () {
+        $('.tippy').hide();
+        $('.angola').show(200)
+    });
+    $('.1Green-head , .Green-head').click(function () {
+        $('.tippy').hide();
+        $('.green-head').show(200)
+    });
+    $('.1Ginia , .Ginia').click(function () {
+        $('.tippy').hide();
+        $('.ginia').show(200)
+    });
+    $('.1Muzambik , .Muzambik').click(function () {
+        $('.tippy').hide();
+        $('.muzambik').show(200)
+    });
+    $('.1Kongho , .Kongho').click(function () {
+        $('.tippy').hide();
+        $('.kongho').show(200)
+    });
+    $('.1Big-kongho , .Big-kongho').click(function () {
+        $('.tippy').hide();
+        $('.big-kongho').show(200)
+    });
+    $('.1Banin , .Banin').click(function () {
+        $('.tippy').hide();
+        $('.banin').show(200)
+    });
+    $('.1Kameron , .Kameron').click(function () {
+        $('.tippy').hide();
+        $('.kameron').show(200)
+    });
+    $('.1Togo ,.Togo').click(function () {
+        $('.tippy').hide();
+        $('.togo').show(200)
+    });
+    $('.1Haity, .Haity').click(function () {
+        $('.tippy').hide();
+        $('.haity').show(200)
+    });
+    $('.1Kotivoar , .Kotivoar').click(function () {
+        $('.tippy').hide();
+        $('.kotivoar').show(200)
+    });
+    $('.1France , .France').click(function () {
+        $('.tippy').hide();
+        $('.france').show(200)
+    });
+    $('.1America , .America').click(function () {
+        $('.tippy').hide();
+        $('.america').show(200)
+    });
+    $('.1Brazil , .Brazil').click(function () {
+        $('.tippy').hide();
+        $('.brazil').show(200)
+    });
+    $('.1Venezuela , .Venezuela').click(function () {
+        $('.tippy').hide();
+        $('.venezuela').show(200)
+    });
+    $('.1Nicaragua , .Nicaragua').click(function () {
+        $('.tippy').hide();
+        $('.nicaragua').show(200)
+    });
+    $('.1Guatemala , .Guatemala').click(function () {
+        $('.tippy').hide();
+        $('.guatemala').show(200)
+    });
+    $('.1Colombia , .Colombia').click(function () {
+        $('.tippy').hide();
+        $('.colombia').show(200)
+    });
+    $('.1Paraguay , .Paraguay').click(function () {
+        $('.tippy').hide();
+        $('.paraguay').show(200)
+    });
+    $('.1Mexico , .Mexico').click(function () {
+        $('.tippy').hide();
+        $('.mexico').show(200)
+    });
+    $('.1Peru , .Peru').click(function () {
+        $('.tippy').hide();
+        $('.peru').show(200)
+    });
+    $('.1Honduras , .Honduras').click(function () {
+        $('.tippy').hide();
+        $('.honduras').show(200)
+    });
+    $('.1Dominicans , .Dominicans').click(function () {
+        $('.tippy').hide();
+        $('.dominicans').show(200)
+    });
+    $('.1Argentina , .Argentina').click(function () {
+        $('.tippy').hide();
+        $('.argentina').show(200)
+    });
+    $('.1Equatorial-Guinea , .Equatorial-Guinea').click(function () {
+        $('.tippy').hide();
+        $('.equatorial-Guinea').show(200)
+    });
+    $('.1Salvador , .Salvador').click(function () {
+        $('.tippy').hide();
+        $('.salvador').show(200)
+    });
+    $('.1Costarica , .Costarica').click(function () {
+        $('.tippy').hide();
+        $('.costarica').show(200)
+    });
+    $('.1Ecuador , .Ecuador').click(function () {
+        $('.tippy').hide();
+        $('.ecuador').show(200)
+    });
+    $('.1Bolivia , .Bolivia').click(function () {
+        $('.tippy').hide();
+        $('.bolivia').show(200)
+    });
+    $('.1Urgawi , .Urgawi').click(function () {
+        $('.tippy').hide();
+        $('.urgawi').show(200)
+    });
+});
