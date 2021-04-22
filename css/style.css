@@ -1,10 +1,6 @@
 body {
   background-color: #ffffff;
-  box-sizing: border-box;
-  overflow-x: hidden;
-  padding: 0px;
-  margin: 0px;
-  font-size: 24px;
+  scroll-behavior: smooth;
   font-weight: 500;
   font-family: "Kufam", cursive; }
   body li {
@@ -16,10 +12,6 @@ body {
   body a:hover {
     text-decoration: none; }
 
-.container-fluid {
-  padding: 0px;
-  margin: 0px; }
-
 .countries {
   background-image: linear-gradient(rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.541)), url("../images/earth.jpg");
   background-size: cover;
@@ -30,6 +22,7 @@ body {
   direction: rtl;
   height: 214px;
   overflow-x: auto;
+  overflow-y: auto;
   color: white; }
   .list-country a {
     background-color: #2a9aa5;
@@ -60,21 +53,17 @@ body {
 .description {
   background-color: aliceblue;
   width: 50%;
-  margin: auto;
   padding: 27px;
-  border-radius: 13px;
-  align-items: flex-start;
   direction: rtl;
   color: #0079e0;
-  -webkit-border-radius: 13px;
-  -moz-border-radius: 13px;
-  -ms-border-radius: 13px;
-  -o-border-radius: 13px; }
+  border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px; }
 
 .map-container {
-  align-items: flex-end;
-  margin-top: 60px;
-  position: relative; }
+  margin-top: 60px; }
   .map-container img {
     width: 100%; }
   .map-container .point {
@@ -202,13 +191,12 @@ body {
   -o-border-radius: 10px; }
 
 .statistics {
-  padding: 90px; }
+  padding: 50px;
+  width: 100%;
+  overflow: hidden; }
   .statistics .explanation {
-    box-sizing: border-box;
     margin: 10px;
     padding: 15px;
-    width: auto;
-    height: fit-content;
     background-color: #7a7a7a38;
     color: black;
     height: auto;
