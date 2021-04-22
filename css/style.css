@@ -55,7 +55,7 @@ body {
     .nav h2 {
       font-size: 25px; }
     .nav img {
-      width: 70%; } }
+      width: inherit; } }
 
 .description {
   background-color: aliceblue;
