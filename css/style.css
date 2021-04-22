@@ -28,7 +28,7 @@ body {
 
 .list-country {
   direction: rtl;
-  height: 320px;
+  height: 214px;
   overflow-x: auto;
   color: white; }
   .list-country a {
@@ -45,10 +45,17 @@ body {
   align-items: center;
   background-color: #ffffff;
   color: #2479b1; }
+  .nav img {
+    width: 25%; }
   .nav h2 {
     font-size: 39px;
     direction: rtl;
     text-align: right; }
+  @media only screen and (max-width: 678px) {
+    .nav h2 {
+      font-size: 25px; }
+    .nav img {
+      width: 50%; } }
 
 .description {
   background-color: aliceblue;
