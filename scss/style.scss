@@ -58,9 +58,9 @@ body {
     direction: rtl;
     text-align: right;
   }
-  @media only screen and (max-width: 678px) {
+  @media only screen and (max-width:768px) {
     h2 {
-      font-size: 25px;
+      font-size: 28px;
     }
     img {
       width: inherit;
