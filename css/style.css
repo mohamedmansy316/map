@@ -96,9 +96,10 @@ body {
       background-color: #12acbb; }
 
 .map-container {
-  padding: 5px; }
+  padding: 0px;
+  margin-top: 10px; }
   .map-container img {
-    width: inherit; }
+    width: 100%; }
   .map-container .point {
     cursor: pointer;
     position: absolute;
