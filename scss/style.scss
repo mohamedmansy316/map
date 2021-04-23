@@ -1,6 +1,6 @@
 $primary: #ffffff;
-$pirmary2:#050647;
-$second:#FF9C01;
+$pirmary2: #050647;
+$second: #ff9c01;
 body {
   background-color: #ffffff;
   scroll-behavior: smooth;
@@ -19,7 +19,7 @@ body {
 }
 .countries {
   background-image: linear-gradient(rgba(0, 0, 0, 0.541), hsla(0, 0%, 0%, 0.541)), url("../images/earth.jpg");
-  background-size:auto;
+  background-size: auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -45,7 +45,7 @@ body {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-}
+  }
   a:hover {
     cursor: pointer;
   }
@@ -64,7 +64,7 @@ body {
     direction: rtl;
     text-align: right;
     color: $pirmary2;
-    span{
+    span {
       color: $second;
     }
   }
@@ -98,7 +98,7 @@ body {
     margin: 10px;
     display: grid;
     grid-template-rows: 50% 25% 25%;
-    justify-content:stretch;
+    justify-content: stretch;
     align-items: stretch;
     padding: 15px;
     background-color: #7a7a7a38;
@@ -109,7 +109,7 @@ body {
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-    p{
+    p {
       width: 100%;
     }
     img {
@@ -141,24 +141,30 @@ body {
   .point {
     cursor: pointer;
     position: absolute;
-    width: 5px;
-    height: 5px;
+    width: 10px;
+    height: 10px;
     background-color: $pirmary2;
     border-radius: 50%;
     transition: all 0.3s ease;
     will-change: transform, box-shadow;
     transform: translate(-50%, -50%);
-
+    box-shadow: 0 0 0 rgba($pirmary2, 0.4);
+    animation: pulse 3s infinite;
     z-index: 5;
     order: 1;
-  
+    @media(max-width:768px) {
+      .point {
+        width: 2px;
+        height: 2px;
+      }
+    }
   }
   .tippy {
     width: 200px;
     padding: 10px;
     color: white;
     background-color: $pirmary2;
-    position:absolute;
+    position: absolute;
     left: -93px;
     top: 22px;
     border-radius: 10px;
@@ -168,11 +174,11 @@ body {
     -o-border-radius: 10px;
     z-index: 1000000;
   }
-  .angola{
+  .angola {
     z-index: 10000000000000;
   }
-  .tippy::before{
-    content: '';
+  .tippy::before {
+    content: "";
     position: absolute;
     top: -33%;
     left: 50%;
@@ -184,7 +190,7 @@ body {
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
-}
+  }
   .Angola {
     top: 71%;
     left: 52.5%;
@@ -304,7 +310,6 @@ body {
   .Urgawi {
     top: 82%;
     left: 34%;
-
   }
 }
 
@@ -341,36 +346,30 @@ body {
 .list-country::-webkit-scrollbar {
   display: none;
 }
-footer{
+footer {
   background-color: $pirmary2;
   padding: 20px;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
-  overflow:hidden;
+  overflow: hidden;
   color: white;
-  .link{
+  .link {
     color: white;
     font-size: 24px;
   }
-  .footer-img{
-      width: 30%;
+  .footer-img {
+    width: 30%;
   }
-  .copy{
+  .copy {
     background-color: $second;
     width: 100%;
     padding: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    p{
+    p {
       margin: 0;
     }
-  }
-}
-@media(max-width:768px){
-
-  .tippy{
-    width: 100px;
   }
 }
