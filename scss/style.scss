@@ -141,8 +141,8 @@ body {
   .point {
     cursor: pointer;
     position: absolute;
-    width: 10px;
-    height: 10px;
+    width: 2px;
+    height: 2px;
     background-color: $pirmary2;
     border-radius: 50%;
     transition: all 0.3s ease;
@@ -151,12 +151,7 @@ body {
     box-shadow: 0 0 0 rgba($pirmary2, 0.4);
     animation: pulse 3s infinite;
     z-index: 5;
-    @media (max-width: 992px) {
-      .map-container .point {
-        width: 2px !important;
-        height: 2px !important;
-      }
-    }
+
   }
   .tippy {
     width: 200px;
@@ -367,5 +362,11 @@ footer {
     p {
       margin: 0;
     }
+  }
+}
+@media (min-width: 992px) {
+  .map-container .point {
+    width: 10px ;
+    height: 10px ;
   }
 }
