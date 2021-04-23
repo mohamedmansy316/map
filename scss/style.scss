@@ -148,9 +148,10 @@ body {
     transition: all 0.3s ease;
     will-change: transform, box-shadow;
     transform: translate(-50%, -50%);
-    box-shadow: 0 0 0 rgba($primary, 0.4);
+    box-shadow: 0 0 0 rgba($pirmary2, 0.4);
     animation: pulse 3s infinite;
     z-index: 5;
+    order: 1;
   }
   .tippy {
     width: 200px;
@@ -167,6 +168,9 @@ body {
     -o-border-radius: 10px;
     z-index: 1000000;
   }
+  .angola{
+    z-index: 10000000000000;
+  }
   .tippy::before{
     content: '';
     position: absolute;
@@ -182,124 +186,125 @@ body {
     -o-transform: translateX(-50%);
 }
   .Angola {
-    top: 56%;
-    left: 50%;
+    top: 71%;
+    left: 52.5%;
   }
   .Green-head {
-    top: 48%;
-    left: 38%;
+    top: 54%;
+    left: 42%;
   }
   .Ginia {
-    top: 51%;
-    left: 41%;
+    top: 59%;
+    left: 44%;
   }
   .Muzambik {
-    top: 61%;
-    left: 55%;
+    top: 72%;
+    left: 58%;
   }
   .Kongho {
-    top: 53%;
-    left: 50%;
+    top: 65%;
+    left: 52.2%;
   }
   .Big-kongho {
-    top: 55%;
-    left: 53%;
+    top: 66%;
+    left: 54%;
   }
   .Banin {
-    top: 51%;
-    left: 45%;
+    top: 59%;
+    left: 49%;
   }
   .Kameron {
-    top: 52%;
-    left: 48%;
+    top: 62%;
+    left: 51.6%;
   }
   .Togo {
-    top: 51%;
-    left: 43.4%;
+    top: 61%;
+    left: 48.4%;
   }
   .Kotivoar {
-    top: 52%;
-    left: 42.5%;
+    top: 61%;
+    left: 46.5%;
   }
   .Haity {
-    top: 48%;
-    left: 22%;
-  }
-  .France {
-    top: 38%;
-    left: 48%;
-  }
-  .America {
-    top: 41%;
-    left: 15%;
-  }
-  .Brazil {
-    top: 57%;
+    top: 55%;
     left: 28%;
   }
+  .France {
+    top: 40%;
+    left: 48.6%;
+  }
+  .America {
+    top: 43%;
+    left: 22%;
+  }
+  .Brazil {
+    top: 69%;
+    left: 34%;
+  }
   .Venezuela {
-    top: 52%;
-    left: 24%;
+    top: 61%;
+    left: 30%;
   }
   .Nicaragua {
-    top: 49%;
-    left: 18.2%;
+    top: 59%;
+    left: 25.2%;
   }
   .Colombia {
-    top: 52%;
-    left: 21%;
+    top: 63%;
+    left: 28%;
   }
   .Guatemala {
-    top: 48%;
-    left: 16%;
+    top: 56%;
+    left: 23%;
   }
   .Paraguay {
-    top: 61%;
-    left: 27%;
+    top: 76%;
+    left: 32%;
   }
   .Mexico {
-    top: 46%;
-    left: 13%;
+    top: 52%;
+    left: 20%;
   }
   .Peru {
-    top: 57%;
-    left: 21%;
+    top: 71%;
+    left: 28%;
   }
   .Honduras {
-    top: 50%;
-    left: 18%;
-  }
-  .Dominicans {
-    top: 48%;
-    left: 24%;
-  }
-  .Argentina {
-    top: 63%;
+    top: 57%;
     left: 25%;
   }
+  .Dominicans {
+    top: 56%;
+    left: 30%;
+  }
+  .Argentina {
+    top: 82%;
+    left: 31%;
+  }
   .Equatorial-Guinea {
-    top: 54%;
-    left: 48%;
+    top: 64%;
+    left: 51%;
   }
   .Salvador {
-    top: 49.4%;
-    left: 17%;
-  }
-  .Costarica {
-    top: 51%;
-    left: 18.5%;
-  }
-  .Ecuador {
-    top: 54%;
-    left: 19.6%;
-  }
-  .Bolivia {
-    top: 59%;
+    top: 57.4%;
     left: 24%;
   }
+  .Costarica {
+    top: 61%;
+    left: 26.5%;
+  }
+  .Ecuador {
+    top: 66%;
+    left: 26.6%;
+  }
+  .Bolivia {
+    top: 73%;
+    left: 30.5%;
+  }
   .Urgawi {
-    top: 62%;
-    left: 30%;
+    top: 82%;
+    left: 34%;
+
   }
 }
 

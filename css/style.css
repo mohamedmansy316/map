@@ -127,9 +127,10 @@ body {
     transition: all 0.3s ease;
     will-change: transform, box-shadow;
     transform: translate(-50%, -50%);
-    box-shadow: 0 0 0 rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 0 rgba(5, 6, 71, 0.4);
     animation: pulse 3s infinite;
-    z-index: 5; }
+    z-index: 5;
+    order: 1; }
   .map-container .tippy {
     width: 200px;
     padding: 10px;
@@ -144,6 +145,8 @@ body {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     z-index: 1000000; }
+  .map-container .angola {
+    z-index: 10000000000000; }
   .map-container .tippy::before {
     content: '';
     position: absolute;
@@ -158,95 +161,95 @@ body {
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%); }
   .map-container .Angola {
-    top: 56%;
-    left: 50%; }
+    top: 71%;
+    left: 52.5%; }
   .map-container .Green-head {
-    top: 48%;
-    left: 38%; }
+    top: 54%;
+    left: 42%; }
   .map-container .Ginia {
-    top: 51%;
-    left: 41%; }
-  .map-container .Muzambik {
-    top: 61%;
-    left: 55%; }
-  .map-container .Kongho {
-    top: 53%;
-    left: 50%; }
-  .map-container .Big-kongho {
-    top: 55%;
-    left: 53%; }
-  .map-container .Banin {
-    top: 51%;
-    left: 45%; }
-  .map-container .Kameron {
-    top: 52%;
-    left: 48%; }
-  .map-container .Togo {
-    top: 51%;
-    left: 43.4%; }
-  .map-container .Kotivoar {
-    top: 52%;
-    left: 42.5%; }
-  .map-container .Haity {
-    top: 48%;
-    left: 22%; }
-  .map-container .France {
-    top: 38%;
-    left: 48%; }
-  .map-container .America {
-    top: 41%;
-    left: 15%; }
-  .map-container .Brazil {
-    top: 57%;
-    left: 28%; }
-  .map-container .Venezuela {
-    top: 52%;
-    left: 24%; }
-  .map-container .Nicaragua {
-    top: 49%;
-    left: 18.2%; }
-  .map-container .Colombia {
-    top: 52%;
-    left: 21%; }
-  .map-container .Guatemala {
-    top: 48%;
-    left: 16%; }
-  .map-container .Paraguay {
-    top: 61%;
-    left: 27%; }
-  .map-container .Mexico {
-    top: 46%;
-    left: 13%; }
-  .map-container .Peru {
-    top: 57%;
-    left: 21%; }
-  .map-container .Honduras {
-    top: 50%;
-    left: 18%; }
-  .map-container .Dominicans {
-    top: 48%;
-    left: 24%; }
-  .map-container .Argentina {
-    top: 63%;
-    left: 25%; }
-  .map-container .Equatorial-Guinea {
-    top: 54%;
-    left: 48%; }
-  .map-container .Salvador {
-    top: 49.4%;
-    left: 17%; }
-  .map-container .Costarica {
-    top: 51%;
-    left: 18.5%; }
-  .map-container .Ecuador {
-    top: 54%;
-    left: 19.6%; }
-  .map-container .Bolivia {
     top: 59%;
-    left: 24%; }
-  .map-container .Urgawi {
+    left: 44%; }
+  .map-container .Muzambik {
+    top: 72%;
+    left: 58%; }
+  .map-container .Kongho {
+    top: 65%;
+    left: 52.2%; }
+  .map-container .Big-kongho {
+    top: 66%;
+    left: 54%; }
+  .map-container .Banin {
+    top: 59%;
+    left: 49%; }
+  .map-container .Kameron {
     top: 62%;
+    left: 51.6%; }
+  .map-container .Togo {
+    top: 61%;
+    left: 48.4%; }
+  .map-container .Kotivoar {
+    top: 61%;
+    left: 46.5%; }
+  .map-container .Haity {
+    top: 55%;
+    left: 28%; }
+  .map-container .France {
+    top: 40%;
+    left: 48.6%; }
+  .map-container .America {
+    top: 43%;
+    left: 22%; }
+  .map-container .Brazil {
+    top: 69%;
+    left: 34%; }
+  .map-container .Venezuela {
+    top: 61%;
     left: 30%; }
+  .map-container .Nicaragua {
+    top: 59%;
+    left: 25.2%; }
+  .map-container .Colombia {
+    top: 63%;
+    left: 28%; }
+  .map-container .Guatemala {
+    top: 56%;
+    left: 23%; }
+  .map-container .Paraguay {
+    top: 76%;
+    left: 32%; }
+  .map-container .Mexico {
+    top: 52%;
+    left: 20%; }
+  .map-container .Peru {
+    top: 71%;
+    left: 28%; }
+  .map-container .Honduras {
+    top: 57%;
+    left: 25%; }
+  .map-container .Dominicans {
+    top: 56%;
+    left: 30%; }
+  .map-container .Argentina {
+    top: 82%;
+    left: 31%; }
+  .map-container .Equatorial-Guinea {
+    top: 64%;
+    left: 51%; }
+  .map-container .Salvador {
+    top: 57.4%;
+    left: 24%; }
+  .map-container .Costarica {
+    top: 61%;
+    left: 26.5%; }
+  .map-container .Ecuador {
+    top: 66%;
+    left: 26.6%; }
+  .map-container .Bolivia {
+    top: 73%;
+    left: 30.5%; }
+  .map-container .Urgawi {
+    top: 82%;
+    left: 34%; }
 
 @keyframes pulse {
   0% {
