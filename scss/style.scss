@@ -152,6 +152,12 @@ body {
     animation: pulse 3s infinite;
     z-index: 5;
     order: 1;
+    @media(max-width :768px){
+      .point{
+        width: 5px;
+        height: 5px;
+      }
+    }
   }
   .tippy {
     width: 200px;

@@ -131,6 +131,10 @@ body {
     animation: pulse 3s infinite;
     z-index: 5;
     order: 1; }
+    @media (max-width: 768px) {
+      .map-container .point .point {
+        width: 5px;
+        height: 5px; } }
   .map-container .tippy {
     width: 200px;
     padding: 10px;
