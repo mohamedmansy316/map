@@ -36,9 +36,13 @@ body {
   a {
     background-color: #2a9aa5;
     padding: 7px;
-    border-radius: 24px;
     margin: 10px;
-  }
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
   a:hover {
     cursor: pointer;
   }
