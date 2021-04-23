@@ -53,9 +53,9 @@ body {
     font-size: 39px;
     direction: rtl;
     text-align: right; }
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 992px) {
     .nav h2 {
-      font-size: 28px; }
+      font-size: 26px; }
     .nav img {
       width: inherit; } }
 
