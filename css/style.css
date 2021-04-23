@@ -131,7 +131,7 @@ body {
     animation: pulse 3s infinite;
     z-index: 5; }
   .map-container .tippy {
-    width: 100px;
+    width: 150px;
     padding: 10px;
     color: white;
     background-color: #050647;
