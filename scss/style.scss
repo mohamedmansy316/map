@@ -2,7 +2,6 @@ $primary: #ffffff;
 body {
   background-color: #ffffff;
   scroll-behavior: smooth;
-
   font-weight: 500;
   font-family: "Kufam", cursive;
   li {
@@ -67,8 +66,6 @@ body {
     }
   }
 }
-
-
 .description {
   background-color: aliceblue;
   width: 50%;
@@ -266,10 +263,9 @@ body {
     box-shadow: 0 0 0 0 rgba($primary, 0);
   }
 }
-
 .tippy {
   background-color: rgb(14, 173, 194);
-  width: 310px;
+  width: 200px;
   padding: 10px;
   position: absolute;
   color: white;

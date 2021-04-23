@@ -213,7 +213,7 @@ body {
     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0); } }
 .tippy {
   background-color: #0eadc2;
-  width: 310px;
+  width: 200px;
   padding: 10px;
   position: absolute;
   color: white;
