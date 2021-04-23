@@ -159,8 +159,8 @@ body {
     color: white;
     background-color: $pirmary2;
     position: absolute;
-    left: -69px;
-    top: 22px;
+    left: -73px;
+    top: 19px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -371,5 +371,7 @@ footer {
   }
   .tippy{
     width: 200px;
+    left: -69px;
+    top: 22px;
   }
 }
