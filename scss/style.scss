@@ -2,6 +2,7 @@ $primary: #ffffff;
 body {
   background-color: #ffffff;
   scroll-behavior: smooth;
+  overflow: hidden;
   font-weight: 500;
   font-family: "Kufam", cursive;
   li {
@@ -296,4 +297,7 @@ body {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(14, 173, 194);
+}
+.list-country::-webkit-scrollbar {
+  display: none;
 }

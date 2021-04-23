@@ -1,6 +1,7 @@
 body {
   background-color: #ffffff;
   scroll-behavior: smooth;
+  overflow: hidden;
   font-weight: 500;
   font-family: "Kufam", cursive; }
   body li {
@@ -240,5 +241,8 @@ body {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #0eadc2; }
+
+.list-country::-webkit-scrollbar {
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */
