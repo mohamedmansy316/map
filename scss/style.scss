@@ -154,7 +154,7 @@ body {
 
   }
   .tippy {
-    width: 200px;
+    width: 100px;
     padding: 10px;
     color: white;
     background-color: $pirmary2;
@@ -368,5 +368,8 @@ footer {
   .map-container .point {
     width: 10px ;
     height: 10px ;
+  }
+  .tippy{
+    width: 200px;
   }
 }

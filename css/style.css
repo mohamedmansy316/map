@@ -131,7 +131,7 @@ body {
     animation: pulse 3s infinite;
     z-index: 5; }
   .map-container .tippy {
-    width: 200px;
+    width: 100px;
     padding: 10px;
     color: white;
     background-color: #050647;
@@ -300,6 +300,9 @@ footer {
 @media (min-width: 992px) {
   .map-container .point {
     width: 10px;
-    height: 10px; } }
+    height: 10px; }
+
+  .tippy {
+    width: 200px; } }
 
 /*# sourceMappingURL=style.css.map */
