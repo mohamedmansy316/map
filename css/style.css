@@ -98,8 +98,7 @@ body {
 
 .map-container {
   padding: 0px;
-  margin-top: 10px;
-  border: 10px solid #0eadc2; }
+  margin-top: 10px; }
   .map-container img {
     width: 100%;
     position: relative; }
