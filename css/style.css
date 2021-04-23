@@ -125,10 +125,6 @@ body {
     background-color: #050647;
     border-radius: 50%;
     transition: all 0.3s ease;
-    will-change: transform, box-shadow;
-    transform: translate(-50%, -50%);
-    box-shadow: 0 0 0 rgba(5, 6, 71, 0.4);
-    animation: pulse 3s infinite;
     z-index: 5; }
   .map-container .tippy {
     width: 150px;
@@ -300,7 +296,11 @@ footer {
 @media (min-width: 992px) {
   .map-container .point {
     width: 10px;
-    height: 10px; }
+    height: 10px;
+    will-change: transform, box-shadow;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 0 rgba(5, 6, 71, 0.4);
+    animation: pulse 3s infinite; }
 
   .tippy {
     width: 200px;
