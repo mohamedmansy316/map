@@ -87,6 +87,8 @@ body {
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px; }
+    .statistics .explanation p {
+      width: 100%; }
     .statistics .explanation img {
       width: 30%; }
     .statistics .explanation span {
@@ -248,5 +250,23 @@ body {
 
 .list-country::-webkit-scrollbar {
   display: none; }
+
+footer {
+  background-color: #0eadc2;
+  padding: 20px;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  overflow: hidden;
+  color: white; }
+  footer .link {
+    color: white;
+    font-size: 24px; }
+  footer .footer-img {
+    width: 30%; }
+  footer .copy {
+    background-color: #1f1d1d;
+    width: 100%;
+    padding: 15px; }
 
 /*# sourceMappingURL=style.css.map */

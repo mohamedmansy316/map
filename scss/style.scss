@@ -99,6 +99,9 @@ body {
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+    p{
+      width: 100%;
+    }
     img {
       width: 30%;
     }
@@ -304,4 +307,25 @@ body {
 }
 .list-country::-webkit-scrollbar {
   display: none;
+}
+footer{
+  background-color: rgb(14, 173, 194);
+  padding: 20px;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  overflow:hidden;
+  color: white;
+  .link{
+    color: white;
+    font-size: 24px;
+  }
+  .footer-img{
+      width: 30%;
+  }
+  .copy{
+    background-color: rgb(31, 29, 29);
+    width: 100%;
+    padding: 15px;
+  }
 }
