@@ -120,8 +120,8 @@ body {
   .map-container .point {
     cursor: pointer;
     position: absolute;
-    width: 10px;
-    height: 10px;
+    width: 5px;
+    height: 5px;
     background-color: #050647;
     border-radius: 50%;
     transition: all 0.3s ease;
@@ -299,10 +299,6 @@ footer {
       margin: 0; }
 
 @media (max-width: 768px) {
-  .point {
-    width: 2px;
-    height: 2px; }
-
   .tippy {
     width: 100px; } }
 
