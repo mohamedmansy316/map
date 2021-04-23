@@ -129,10 +129,6 @@ body {
     transform: translate(-50%, -50%);
     z-index: 5;
     order: 1; }
-    @media (max-width: 768px) {
-      .map-container .point .point {
-        width: 2px;
-        height: 2px; } }
   .map-container .tippy {
     width: 200px;
     padding: 10px;
@@ -301,5 +297,13 @@ footer {
     align-items: center; }
     footer .copy p {
       margin: 0; }
+
+@media (max-width: 768px) {
+  .point {
+    width: 2px;
+    height: 2px; }
+
+  .tippy {
+    width: 100px; } }
 
 /*# sourceMappingURL=style.css.map */

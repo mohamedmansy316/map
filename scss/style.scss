@@ -151,12 +151,7 @@ body {
 
     z-index: 5;
     order: 1;
-    @media(max-width :768px){
-      .point{
-        width: 2px;
-        height: 2px;
-      }
-    }
+  
   }
   .tippy {
     width: 200px;
@@ -371,5 +366,14 @@ footer{
     p{
       margin: 0;
     }
+  }
+}
+@media(max-width :768px){
+  .point{
+    width: 2px;
+    height: 2px;
+  }
+  .tippy{
+    width: 100px;
   }
 }
