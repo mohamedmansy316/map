@@ -17,7 +17,8 @@ body {
 }
 .countries {
   background-image: linear-gradient(rgba(0, 0, 0, 0.541), hsla(0, 0%, 0%, 0.541)), url("../images/earth.jpg");
-  background-size: cover;
+  background-size:auto;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   color: white;
