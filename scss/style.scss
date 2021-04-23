@@ -1,4 +1,6 @@
 $primary: #ffffff;
+$pirmary2:#050647;
+$second:#FF9C01;
 body {
   background-color: #ffffff;
   scroll-behavior: smooth;
@@ -35,7 +37,7 @@ body {
   overflow-y: auto;
   color: white;
   a {
-    background-color: #2a9aa5;
+    background-color: $second;
     padding: 7px;
     margin: 10px;
     border-radius: 10px;
@@ -61,6 +63,10 @@ body {
     font-size: 39px;
     direction: rtl;
     text-align: right;
+    color: $pirmary2;
+    span{
+      color: $second;
+    }
   }
   @media only screen and (max-width: 992px) {
     h2 {
@@ -115,7 +121,7 @@ body {
       -moz-border-radius: 10px;
       -ms-border-radius: 10px;
       -o-border-radius: 10px;
-      background-color: #12acbb;
+      background-color: $pirmary2;
     }
   }
 }
@@ -131,7 +137,7 @@ body {
     position: absolute;
     width: 10px;
     height: 10px;
-    background-color: $primary;
+    background-color: $pirmary2;
     border-radius: 50%;
     transition: all 0.3s ease;
     will-change: transform, box-shadow;
@@ -141,18 +147,34 @@ body {
     z-index: 5;
   }
   .tippy {
-    background-color: rgb(14, 173, 194);
     width: 200px;
     padding: 10px;
-    position: static;
     color: white;
-    z-index: 1000000;
+    background-color: $pirmary2;
+    position:absolute;
+    left: -93px;
+    top: 22px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    z-index: 1000000;
   }
+  .tippy::before{
+    content: '';
+    position: absolute;
+    top: -33%;
+    left: 50%;
+    border-style: solid;
+    border-width: 15px;
+    border-color: rgba(0, 0, 0, 0) rgba(0, 128, 0, 0) $pirmary2 rgba(0, 0, 255, 0);
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
   .Angola {
     top: 56%;
     left: 50%;
@@ -293,23 +315,23 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: $second;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(14, 173, 194);
+  background: $pirmary2;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(14, 173, 194);
+  background: $pirmary2;
 }
 .list-country::-webkit-scrollbar {
   display: none;
 }
 footer{
-  background-color: rgb(14, 173, 194);
+  background-color: $pirmary2;
   padding: 20px;
   padding-bottom: 0;
   padding-left: 0;
@@ -324,8 +346,14 @@ footer{
       width: 30%;
   }
   .copy{
-    background-color: rgb(31, 29, 29);
+    background-color: $second;
     width: 100%;
     padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+      margin: 0;
+    }
   }
 }

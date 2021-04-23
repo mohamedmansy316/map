@@ -30,7 +30,7 @@ body {
   overflow-y: auto;
   color: white; }
   .list-country a {
-    background-color: #2a9aa5;
+    background-color: #FF9C01;
     padding: 7px;
     margin: 10px;
     border-radius: 10px;
@@ -52,7 +52,10 @@ body {
   .nav h2 {
     font-size: 39px;
     direction: rtl;
-    text-align: right; }
+    text-align: right;
+    color: #050647; }
+    .nav h2 span {
+      color: #FF9C01; }
   @media only screen and (max-width: 992px) {
     .nav h2 {
       font-size: 26px; }
@@ -101,7 +104,7 @@ body {
       -moz-border-radius: 10px;
       -ms-border-radius: 10px;
       -o-border-radius: 10px;
-      background-color: #12acbb; }
+      background-color: #050647; }
 
 .map-container {
   padding: 0px;
@@ -114,7 +117,7 @@ body {
     position: absolute;
     width: 10px;
     height: 10px;
-    background-color: #ffffff;
+    background-color: #050647;
     border-radius: 50%;
     transition: all 0.3s ease;
     will-change: transform, box-shadow;
@@ -123,17 +126,32 @@ body {
     animation: pulse 3s infinite;
     z-index: 5; }
   .map-container .tippy {
-    background-color: #0eadc2;
     width: 200px;
     padding: 10px;
-    position: static;
     color: white;
-    z-index: 1000000;
+    background-color: #050647;
+    position: absolute;
+    left: -93px;
+    top: 22px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
-    -o-border-radius: 10px; }
+    -o-border-radius: 10px;
+    z-index: 1000000; }
+  .map-container .tippy::before {
+    content: '';
+    position: absolute;
+    top: -33%;
+    left: 50%;
+    border-style: solid;
+    border-width: 15px;
+    border-color: rgba(0, 0, 0, 0) rgba(0, 128, 0, 0) #050647 rgba(0, 0, 255, 0);
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%); }
   .map-container .Angola {
     top: 56%;
     left: 50%; }
@@ -238,21 +256,21 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; }
+  background: #FF9C01; }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #0eadc2; }
+  background: #050647; }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #0eadc2; }
+  background: #050647; }
 
 .list-country::-webkit-scrollbar {
   display: none; }
 
 footer {
-  background-color: #0eadc2;
+  background-color: #050647;
   padding: 20px;
   padding-bottom: 0;
   padding-left: 0;
@@ -265,8 +283,13 @@ footer {
   footer .footer-img {
     width: 30%; }
   footer .copy {
-    background-color: #1f1d1d;
+    background-color: #FF9C01;
     width: 100%;
-    padding: 15px; }
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    footer .copy p {
+      margin: 0; }
 
 /*# sourceMappingURL=style.css.map */
