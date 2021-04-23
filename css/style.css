@@ -133,8 +133,9 @@ body {
     order: 1; }
     @media (max-width: 768px) {
       .map-container .point .point {
-        width: 5px;
-        height: 5px; } }
+        width: 2px;
+        height: 2px;
+        box-shadow: none; } }
   .map-container .tippy {
     width: 200px;
     padding: 10px;

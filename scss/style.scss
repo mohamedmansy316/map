@@ -154,8 +154,9 @@ body {
     order: 1;
     @media(max-width :768px){
       .point{
-        width: 5px;
-        height: 5px;
+        width: 2px;
+        height: 2px;
+        box-shadow: none;
       }
     }
   }
